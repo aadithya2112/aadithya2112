@@ -1,54 +1,41 @@
-# Hi 👋, I'm Aadithya
+## Hi 👋, I'm Aadithya
 
-### A Full Stack Developer 🚀
+Full Stack Developer contributing to open source at [PalisadoesFoundation](https://github.com/PalisadoesFoundation)
 
-- 🔭 Currently contributing to open source at **[PalisadoesFoundation](https://github.com/PalisadoesFoundation)**  
-  *(Full-stack development, CI/CD, testing & refactoring)*
+## 🌐 Connect
 
-- 👨‍💻 All of my projects: **https://aadithya.dev**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aadithya-senthil-kumaran)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Aadithya24)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/aadithya2112)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://aadithya.dev)
 
----
+## 🛠 Tech Stack
 
-### 🌐 Connect with me
-<p align="left">
-<a href="https://github.com/aadithya2112" target="_blank">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" width="40" />
-</a>
-<a href="https://linkedin.com/in/aadithya-senthil-kumaran" target="_blank">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" width="40" />
-</a>
-<a href="https://twitter.com/Aadithya24" target="_blank">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" width="40" />
-</a>
-<a href="https://leetcode.com/aadithya2112" target="_blank">
-  <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" width="40" />
-</a>
-</p>
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
----
+## 📊 GitHub Stats
 
-### 🛠 Languages & Tools
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=aws,docker,go,graphql,kafka,mongodb,nodejs,postgres,python,react,redis,ts" />
-</p>
-
----
-
-# 📊 GitHub Stats
-
-![Aadithya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=aadithya2112)
-
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=aadithya2112&theme=gotham&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aadithya2112&layout=compact&theme=gotham&hide_border=true)
-
-### 🐍 Contribution Snake
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aadithya2112&show_icons=true&theme=gotham&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <br/>
+  <img src="https://nirzak-streak-stats.vercel.app/?user=aadithya2112&theme=gotham&hide_border=true" alt="GitHub Streak" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aadithya2112&layout=compact&theme=gotham&hide_border=true" alt="Top Languages" />
+</div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/aadithya2112/aadithya2112/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)"
-          srcset="https://raw.githubusercontent.com/aadithya2112/aadithya2112/output/github-snake.svg" />
-  <img alt="GitHub contribution snake"
-       src="https://raw.githubusercontent.com/aadithya2112/aadithya2112/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aadithya2112/aadithya2112/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aadithya2112/aadithya2112/output/github-snake.svg" />
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/aadithya2112/aadithya2112/output/github-snake.svg" />
 </picture>
