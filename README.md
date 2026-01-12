@@ -24,19 +24,10 @@ Full Stack Developer contributing to open source at [PalisadoesFoundation](https
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-## 📊 GitHub Stats
+## 📊 GitHub Metrics
 
 <div align="center">
-
-<a href="https://github.com/aadithya2112">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aadithya2112&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aadithya2112&layout=compact&langs_count=8&theme=radical"/>
-</a>
-
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aadithya2112&theme=radical" alt="GitHub Streak"/>
+  <img src="https://raw.githubusercontent.com/aadithya2112/aadithya2112/main/github-metrics.svg" alt="GitHub Metrics"/>
 </div>
 
 <picture>
