@@ -13,9 +13,10 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: aadithya2112
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            dist/github-snake.svg?palette=github-light
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=#00ff00&color_dots=#c9d1d9,#30363d,#26a641,#006d32,#0e4429
+            dist/github-snake-dark.svg?color_snake=#58a6ff&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
