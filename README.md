@@ -25,6 +25,7 @@ Full Stack Developer contributing to open source at [PalisadoesFoundation](https
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 # 📊 GitHub Stats:
+
 ![](https://github-readme-stats.vercel.app/api?username=aadithya2112&theme=gotham&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=aadithya2112&theme=gotham&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aadithya2112&theme=gotham&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
