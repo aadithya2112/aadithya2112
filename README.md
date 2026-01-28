@@ -30,6 +30,10 @@ Full Stack Developer contributing to open source at [PalisadoesFoundation](https
 ![](https://nirzak-streak-stats.vercel.app/?user=aadithya2112&theme=gotham&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aadithya2112&theme=gotham&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aadithya2112&theme=tokyonight" />
+</p>
+
 ---
 
 <picture>
