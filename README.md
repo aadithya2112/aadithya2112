@@ -1,6 +1,6 @@
 ## Hi 👋, I'm Aadithya
 
-Full Stack Developer contributing to open source at [PalisadoesFoundation](https://github.com/PalisadoesFoundation)
+Full Stack Developer
 
 ## 🌐 Connect
 
