@@ -1,0 +1,106 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Aadithya Senthil Kumaran — Signal Noir</title>
+  <desc id="desc">A cinematic dark operations interface showing a glowing network route from source code through a queue and worker to a live system.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#02060B"/>
+      <stop offset="0.55" stop-color="#06121D"/>
+      <stop offset="1" stop-color="#03080E"/>
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="650" y1="0" x2="1174" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#23D7F4" stop-opacity="0.18"/>
+      <stop offset="0.52" stop-color="#23D7F4"/>
+      <stop offset="1" stop-color="#FFB443"/>
+    </linearGradient>
+    <radialGradient id="cyanHalo">
+      <stop stop-color="#23D7F4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#23D7F4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="amberHalo">
+      <stop stop-color="#FFB443" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFB443" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8EDDF0" stroke-opacity="0.055"/>
+    </pattern>
+    <pattern id="microgrid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.7" fill="#9DDCE9" fill-opacity="0.08"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <clipPath id="frame"><rect width="1280" height="520" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="520" fill="url(#bg)"/>
+    <rect width="1280" height="520" fill="url(#grid)"/>
+    <rect x="610" width="670" height="520" fill="url(#microgrid)"/>
+    <circle cx="894" cy="248" r="262" fill="url(#cyanHalo)" filter="url(#softGlow)"/>
+    <circle cx="1195" cy="358" r="180" fill="url(#amberHalo)" filter="url(#softGlow)"/>
+
+    <path d="M0 84H1280M0 446H1280" stroke="#9FD8E5" stroke-opacity="0.1"/>
+    <path d="M594 0V520" stroke="#9FD8E5" stroke-opacity="0.12"/>
+    <path d="M610 150H1248M610 376H1248" stroke="#9FD8E5" stroke-opacity="0.08" stroke-dasharray="3 9"/>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+      <circle cx="44" cy="42" r="4" fill="#23D7F4" filter="url(#glow)"/>
+      <text x="60" y="47" fill="#A6C5D0" font-size="12" font-weight="700" letter-spacing="2.4">ASK / SIGNAL NOIR</text>
+      <text x="1208" y="47" fill="#FFB443" font-size="11" text-anchor="end" letter-spacing="2">SYSTEMS ONLINE</text>
+      <text x="1236" y="47" fill="#FFB443" font-size="13">●</text>
+
+      <text x="52" y="155" fill="#23D7F4" font-size="12" font-weight="700" letter-spacing="3">FULL-STACK ENGINEER</text>
+      <text x="48" y="235" fill="#F2F7FA" font-size="70" font-weight="750" letter-spacing="-4">AADITHYA</text>
+      <text x="48" y="302" fill="none" stroke="#B8CBD2" stroke-width="1" font-size="70" font-weight="750" letter-spacing="-4">KUMARAN</text>
+      <rect x="52" y="339" width="62" height="2" rx="1" fill="#23D7F4" filter="url(#glow)"/>
+      <circle cx="123" cy="340" r="5" fill="#FFB443" filter="url(#glow)"/>
+      <text x="52" y="383" fill="#A6BAC3" font-size="15">I BUILD THE PATH FROM IDEA</text>
+      <text x="52" y="409" fill="#E3EDF1" font-size="15" font-weight="700">TO RELIABLE SYSTEM.</text>
+
+      <text x="52" y="477" fill="#68828D" font-size="10" letter-spacing="1.8">CHENNAI / BENGALURU · 13.08° N / 80.27° E</text>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+      <text x="646" y="125" fill="#688B97" font-size="10" letter-spacing="2">LIVE SYSTEM ROUTE / 01</text>
+      <path d="M660 265H740L776 210H880L920 294H1017L1057 238H1168" stroke="#163845" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.56"/>
+      <path d="M660 265H740L776 210H880L920 294H1017L1057 238H1168" stroke="url(#cyanLine)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <g>
+        <circle cx="660" cy="265" r="18" fill="#07151E" stroke="#23D7F4"/>
+        <circle cx="660" cy="265" r="5" fill="#23D7F4" filter="url(#glow)"/>
+        <text x="660" y="303" text-anchor="middle" fill="#86A7B2" font-size="10" letter-spacing="1.3">SOURCE</text>
+      </g>
+      <g>
+        <circle cx="776" cy="210" r="18" fill="#07151E" stroke="#23D7F4"/>
+        <path d="M768 210H784M776 202V218" stroke="#23D7F4"/>
+        <text x="776" y="180" text-anchor="middle" fill="#86A7B2" font-size="10" letter-spacing="1.3">QUEUE</text>
+      </g>
+      <g>
+        <circle cx="920" cy="294" r="18" fill="#07151E" stroke="#23D7F4"/>
+        <rect x="914" y="288" width="12" height="12" stroke="#23D7F4"/>
+        <text x="920" y="334" text-anchor="middle" fill="#86A7B2" font-size="10" letter-spacing="1.3">WORKER</text>
+      </g>
+      <g>
+        <circle cx="1057" cy="238" r="18" fill="#07151E" stroke="#23D7F4"/>
+        <path d="M1049 242L1057 234L1065 242" stroke="#23D7F4"/>
+        <text x="1057" y="208" text-anchor="middle" fill="#86A7B2" font-size="10" letter-spacing="1.3">ARTIFACT</text>
+      </g>
+      <g>
+        <circle cx="1168" cy="238" r="22" fill="#18130B" stroke="#FFB443"/>
+        <circle cx="1168" cy="238" r="6" fill="#FFB443" filter="url(#glow)"/>
+        <text x="1168" y="282" text-anchor="middle" fill="#FFCF85" font-size="10" letter-spacing="1.3">LIVE</text>
+      </g>
+
+      <rect x="646" y="398" width="562" height="1" fill="#173540"/>
+      <text x="646" y="431" fill="#6F909B" font-size="10" letter-spacing="1.2">CONTRACTS</text>
+      <text x="785" y="431" fill="#6F909B" font-size="10" letter-spacing="1.2">DURABLE STATE</text>
+      <text x="966" y="431" fill="#6F909B" font-size="10" letter-spacing="1.2">USEFUL LOGS</text>
+      <text x="1120" y="431" fill="#FFB443" font-size="10" letter-spacing="1.2">UP</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1278" height="518" rx="27" stroke="#22414D" stroke-width="2"/>
+</svg>

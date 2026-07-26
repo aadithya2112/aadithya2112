@@ -1,0 +1,54 @@
+<svg width="1280" height="300" viewBox="0 0 1280 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">A reliable system loop</title>
+  <desc id="desc">A diagram connecting typed interfaces to secure APIs, durable state, queues, isolated workers, live updates, artifacts, and observable logs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#040A10"/><stop offset="0.5" stop-color="#07141D"/><stop offset="1" stop-color="#040A10"/></linearGradient>
+    <linearGradient id="path" x1="100" y1="0" x2="1170" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#23D7F4"/><stop offset="0.68" stop-color="#23D7F4"/><stop offset="1" stop-color="#FFB443"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#23D7F4"/></marker>
+  </defs>
+  <rect width="1280" height="300" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1278" height="298" rx="23" stroke="#203B46" stroke-width="2"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="42" y="42" fill="#607E89" font-size="10" letter-spacing="2">SYSTEM LOOP / EVERY HANDOFF IS PART OF THE PRODUCT</text>
+    <path d="M148 147H291M367 147H510M586 147H729M805 147H948M1024 147H1140" stroke="url(#path)" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M1100 192C1030 257 249 257 180 191" stroke="#23D7F4" stroke-opacity="0.48" stroke-dasharray="4 8" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="54" y="101" width="126" height="92" rx="12" fill="#071821" stroke="#23D7F4"/>
+      <circle cx="79" cy="123" r="4" fill="#23D7F4" filter="url(#glow)"/>
+      <text x="117" y="146" text-anchor="middle" fill="#E8F3F6" font-size="13" font-weight="700">TYPED UI</text>
+      <text x="117" y="168" text-anchor="middle" fill="#668692" font-size="9">HONEST STATE</text>
+    </g>
+    <g>
+      <rect x="273" y="101" width="126" height="92" rx="12" fill="#071821" stroke="#23D7F4"/>
+      <circle cx="298" cy="123" r="4" fill="#23D7F4"/>
+      <text x="336" y="146" text-anchor="middle" fill="#E8F3F6" font-size="13" font-weight="700">SECURE API</text>
+      <text x="336" y="168" text-anchor="middle" fill="#668692" font-size="9">EXPLICIT CONTRACT</text>
+    </g>
+    <g>
+      <rect x="492" y="101" width="126" height="92" rx="12" fill="#071821" stroke="#23D7F4"/>
+      <circle cx="517" cy="123" r="4" fill="#23D7F4"/>
+      <text x="555" y="146" text-anchor="middle" fill="#E8F3F6" font-size="13" font-weight="700">QUEUE</text>
+      <text x="555" y="168" text-anchor="middle" fill="#668692" font-size="9">BOUNDED RETRIES</text>
+    </g>
+    <g>
+      <rect x="711" y="101" width="126" height="92" rx="12" fill="#071821" stroke="#23D7F4"/>
+      <circle cx="736" cy="123" r="4" fill="#23D7F4"/>
+      <text x="774" y="146" text-anchor="middle" fill="#E8F3F6" font-size="13" font-weight="700">WORKER</text>
+      <text x="774" y="168" text-anchor="middle" fill="#668692" font-size="9">ISOLATED EXECUTION</text>
+    </g>
+    <g>
+      <rect x="930" y="101" width="126" height="92" rx="12" fill="#071821" stroke="#23D7F4"/>
+      <circle cx="955" cy="123" r="4" fill="#23D7F4"/>
+      <text x="993" y="146" text-anchor="middle" fill="#E8F3F6" font-size="13" font-weight="700">DURABLE STATE</text>
+      <text x="993" y="168" text-anchor="middle" fill="#668692" font-size="9">DATA + ARTIFACTS</text>
+    </g>
+    <g>
+      <rect x="1149" y="101" width="77" height="92" rx="12" fill="#17140D" stroke="#FFB443"/>
+      <circle cx="1171" cy="123" r="4" fill="#FFB443" filter="url(#glow)"/>
+      <text x="1187" y="146" text-anchor="middle" fill="#FFF1D7" font-size="12" font-weight="700">LIVE</text>
+      <text x="1187" y="168" text-anchor="middle" fill="#A9895B" font-size="9">UPDATES</text>
+    </g>
+    <text x="640" y="269" text-anchor="middle" fill="#5E7C87" font-size="10" letter-spacing="2">OBSERVABLE ALL THE WAY THROUGH</text>
+  </g>
+</svg>

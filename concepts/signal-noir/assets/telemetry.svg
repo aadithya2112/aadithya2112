@@ -1,0 +1,46 @@
+<svg width="1280" height="250" viewBox="0 0 1280 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Selected engineering telemetry</title>
+  <desc id="desc">Seventy plus merged open-source pull requests, four hackathon wins, forty percent faster authentication, and 99.9 percent uptime.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040A10"/>
+      <stop offset="0.5" stop-color="#08151E"/>
+      <stop offset="1" stop-color="#040A10"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="44" y1="0" x2="1236" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#23D7F4" stop-opacity="0.18"/>
+      <stop offset="0.48" stop-color="#23D7F4"/>
+      <stop offset="1" stop-color="#FFB443"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" stroke="#8EDDF0" stroke-opacity="0.04"/></pattern>
+  </defs>
+  <rect width="1280" height="250" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="250" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1278" height="248" rx="23" stroke="#203B46" stroke-width="2"/>
+  <path d="M44 64H161L175 43L194 91L213 64H415L431 64L445 36L466 92L485 64H714L729 64L742 47L758 82L777 64H1022L1036 64L1050 43L1067 88L1087 64H1236" stroke="url(#trace)" stroke-width="1.5" stroke-linejoin="round"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="44" y="28" fill="#607E89" font-size="10" letter-spacing="2">FIELD TELEMETRY / SELECTED SIGNALS</text>
+    <g transform="translate(58 99)">
+      <text y="55" fill="#23D7F4" font-size="48" font-weight="750" letter-spacing="-2">70+</text>
+      <text y="84" fill="#A5BAC1" font-size="11" font-weight="700" letter-spacing="1.5">MERGED OSS PRS</text>
+      <text y="108" fill="#5F7B84" font-size="10">OPEN-SOURCE TRAIL</text>
+    </g>
+    <g transform="translate(365 99)">
+      <text y="55" fill="#FFB443" font-size="48" font-weight="750" letter-spacing="-2">4×</text>
+      <text y="84" fill="#A5BAC1" font-size="11" font-weight="700" letter-spacing="1.5">HACKATHON WINS</text>
+      <text y="108" fill="#5F7B84" font-size="10">BUILT UNDER PRESSURE</text>
+    </g>
+    <g transform="translate(672 99)">
+      <text y="55" fill="#23D7F4" font-size="48" font-weight="750" letter-spacing="-2">40%</text>
+      <text y="84" fill="#A5BAC1" font-size="11" font-weight="700" letter-spacing="1.5">FASTER AUTH</text>
+      <text y="108" fill="#5F7B84" font-size="10">MEASURED IMPROVEMENT</text>
+    </g>
+    <g transform="translate(979 99)">
+      <text y="55" fill="#FFB443" font-size="48" font-weight="750" letter-spacing="-2">99.9%</text>
+      <text y="84" fill="#A5BAC1" font-size="11" font-weight="700" letter-spacing="1.5">UPTIME</text>
+      <text y="108" fill="#5F7B84" font-size="10">RELIABILITY MATTERS</text>
+    </g>
+  </g>
+  <path d="M320 104V220M627 104V220M934 104V220" stroke="#18323C"/>
+</svg>

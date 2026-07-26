@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+  <title id="title">Aadithya Senthil Kumaran — Systems Atlas</title>
+  <desc id="desc">A bright technical blueprint mapping Aadithya's work across product interfaces, secure APIs, durable state, real-time signals, build workers, logs, and artifacts. It highlights over 70 merged open-source pull requests, four hackathon wins, 40 percent faster authentication, and 99.9 percent uptime.</desc>
+
+  <defs>
+    <pattern id="minor-grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#0b5f67" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <pattern id="major-grid" width="110" height="110" patternUnits="userSpaceOnUse">
+      <rect width="110" height="110" fill="url(#minor-grid)"/>
+      <path d="M110 0H0V110" fill="none" stroke="#0b5f67" stroke-opacity="0.18" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbf6"/>
+      <stop offset="1" stop-color="#e5f2ef"/>
+    </linearGradient>
+    <linearGradient id="orange-glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8a4c"/>
+      <stop offset="1" stop-color="#ef5b2a"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#08373c" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow-teal" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L6 3L0 6Z" fill="#087f8c"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L6 3L0 6Z" fill="#f2632f"/>
+    </marker>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .ink { fill: #0b3035; }
+      .muted { fill: #557076; }
+      .teal { fill: #087f8c; }
+      .orange { fill: #f2632f; }
+      .label { font-size: 11px; font-weight: 700; letter-spacing: 1.5px; }
+      .micro { font-size: 9px; font-weight: 600; letter-spacing: 1.2px; }
+      .node-title { font-size: 12px; font-weight: 800; letter-spacing: 0.7px; }
+      .node-sub { font-size: 9px; font-weight: 600; letter-spacing: 0.4px; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="660" rx="24" fill="url(#paper)"/>
+  <rect width="1200" height="660" rx="24" fill="url(#major-grid)"/>
+  <rect x="1" y="1" width="1198" height="658" rx="23" fill="none" stroke="#0b3035" stroke-width="2"/>
+
+  <!-- registration marks -->
+  <g fill="none" stroke="#0b3035" stroke-opacity="0.45" stroke-width="1">
+    <path d="M26 52H54M40 38V66M1146 52H1174M1160 38V66M26 608H54M40 594V622M1146 608H1174M1160 594V622"/>
+    <circle cx="40" cy="52" r="8"/><circle cx="1160" cy="52" r="8"/><circle cx="40" cy="608" r="8"/><circle cx="1160" cy="608" r="8"/>
+  </g>
+
+  <!-- masthead -->
+  <g class="mono label">
+    <text x="66" y="46" class="orange">SYSTEMS ATLAS / ASK</text>
+    <text x="928" y="46" class="muted">SHEET 01 · PROFILE TOPOLOGY</text>
+  </g>
+  <path d="M66 62H1134" stroke="#0b3035" stroke-opacity="0.55"/>
+
+  <!-- identity plate -->
+  <g transform="translate(66 92)">
+    <text class="mono teal label" x="0" y="16">NODE: ENGINEER · STATUS: BUILDING</text>
+    <text class="sans ink" x="0" y="80" font-size="51" font-weight="790" letter-spacing="-2.2">AADITHYA</text>
+    <text class="sans orange" x="0" y="130" font-size="51" font-weight="790" letter-spacing="-2.2">KUMARAN</text>
+    <path d="M0 153H320" stroke="#0b3035" stroke-opacity="0.7"/>
+    <text class="mono muted" x="0" y="184" font-size="13">FULL-STACK ENGINEER</text>
+    <text class="mono ink" x="0" y="210" font-size="13">REAL-TIME · WORKERS · DELIVERY</text>
+
+    <g transform="translate(0 248)">
+      <rect width="320" height="82" rx="12" fill="#f8fbf6" stroke="#0b3035" stroke-opacity="0.75"/>
+      <text class="mono muted micro" x="16" y="25">CURRENT COORDINATE</text>
+      <text class="sans ink" x="16" y="51" font-size="16" font-weight="700">Bajaj Finserv Health</text>
+      <text class="mono teal" x="16" y="69" font-size="10">SOFTWARE ENGINEERING INTERN</text>
+    </g>
+
+    <g transform="translate(0 348)">
+      <rect width="74" height="92" rx="10" fill="#f8fbf6" stroke="#0b3035" stroke-opacity="0.75"/>
+      <text class="sans ink" x="12" y="44" font-size="27" font-weight="800">70+</text>
+      <text class="mono muted" x="12" y="64" font-size="8" font-weight="700">MERGED</text>
+      <text class="mono muted" x="12" y="76" font-size="8" font-weight="700">OSS PRs</text>
+
+      <rect x="82" width="74" height="92" rx="10" fill="url(#orange-glow)"/>
+      <text class="sans" x="94" y="44" fill="#fffaf2" font-size="27" font-weight="800">4×</text>
+      <text class="mono" x="94" y="64" fill="#fffaf2" font-size="8" font-weight="700">HACKATHON</text>
+      <text class="mono" x="94" y="76" fill="#fffaf2" font-size="8" font-weight="700">WINNER</text>
+
+      <rect x="164" width="74" height="92" rx="10" fill="#f8fbf6" stroke="#0b3035" stroke-opacity="0.75"/>
+      <text class="sans ink" x="176" y="44" font-size="27" font-weight="800">40%</text>
+      <text class="mono muted" x="176" y="64" font-size="8" font-weight="700">FASTER</text>
+      <text class="mono muted" x="176" y="76" font-size="8" font-weight="700">AUTH</text>
+
+      <rect x="246" width="74" height="92" rx="10" fill="#087f8c"/>
+      <text class="sans" x="254" y="44" fill="#f5fffd" font-size="24" font-weight="800">99.9</text>
+      <text class="mono" x="258" y="64" fill="#f5fffd" font-size="8" font-weight="700">PERCENT</text>
+      <text class="mono" x="258" y="76" fill="#f5fffd" font-size="8" font-weight="700">UPTIME</text>
+    </g>
+  </g>
+
+  <!-- divider and map -->
+  <path d="M420 84V584" stroke="#0b3035" stroke-width="1.2"/>
+  <g transform="translate(446 92)">
+    <text class="mono teal label" x="0" y="16">THE RELIABLE PATH / REFERENCE ARCHITECTURE</text>
+    <text class="mono muted micro" x="604" y="16">NOT TO SCALE</text>
+
+    <!-- system routes -->
+    <g fill="none" stroke="#087f8c" stroke-width="2" marker-end="url(#arrow-teal)">
+      <path d="M122 151C190 102 224 122 281 165"/>
+      <path d="M369 165C422 120 478 115 535 143"/>
+      <path d="M326 208V288"/>
+      <path d="M280 334C231 365 202 394 173 437"/>
+      <path d="M372 333C432 353 473 349 527 315"/>
+    </g>
+    <g fill="none" stroke="#f2632f" stroke-width="1.8" stroke-dasharray="7 7" marker-end="url(#arrow-orange)">
+      <path d="M119 183C153 275 218 284 278 305"/>
+      <path d="M551 185C528 249 496 277 478 298"/>
+      <path d="M213 450C339 472 445 425 527 347"/>
+    </g>
+
+    <!-- route labels -->
+    <g class="mono micro">
+      <g transform="translate(178 110)"><rect width="68" height="20" rx="4" fill="#e6f3ef" stroke="#087f8c"/><text x="9" y="14" class="teal">REQUEST</text></g>
+      <g transform="translate(421 107)"><rect width="78" height="20" rx="4" fill="#e6f3ef" stroke="#087f8c"/><text x="9" y="14" class="teal">WEBSOCKET</text></g>
+      <g transform="translate(334 242)"><rect width="54" height="20" rx="4" fill="#e6f3ef" stroke="#087f8c"/><text x="9" y="14" class="teal">WRITE</text></g>
+      <g transform="translate(173 309)"><rect width="52" height="20" rx="4" fill="#fff0e8" stroke="#f2632f"/><text x="9" y="14" class="orange">QUEUE</text></g>
+      <g transform="translate(440 367)"><rect width="58" height="20" rx="4" fill="#fff0e8" stroke="#f2632f"/><text x="9" y="14" class="orange">STREAM</text></g>
+    </g>
+
+    <!-- nodes -->
+    <g transform="translate(78 108)" filter="url(#shadow)">
+      <rect width="118" height="87" rx="14" fill="#f8fbf6" stroke="#0b3035" stroke-width="1.5"/>
+      <circle cx="18" cy="18" r="5" fill="#f2632f"/>
+      <text class="mono ink node-title" x="16" y="48">PRODUCT UI</text>
+      <text class="mono muted node-sub" x="16" y="67">TYPED EDGES</text>
+    </g>
+    <g transform="translate(270 122)" filter="url(#shadow)">
+      <rect width="112" height="87" rx="14" fill="#f8fbf6" stroke="#0b3035" stroke-width="1.5"/>
+      <circle cx="18" cy="18" r="5" fill="#087f8c"/>
+      <text class="mono ink node-title" x="16" y="48">SECURE API</text>
+      <text class="mono muted node-sub" x="16" y="67">CONTRACTS</text>
+    </g>
+    <g transform="translate(528 102)" filter="url(#shadow)">
+      <rect width="130" height="87" rx="14" fill="#f8fbf6" stroke="#0b3035" stroke-width="1.5"/>
+      <circle cx="18" cy="18" r="5" fill="#f2632f"/>
+      <text class="mono ink node-title" x="16" y="48">LIVE SIGNAL</text>
+      <text class="mono muted node-sub" x="16" y="67">REAL-TIME</text>
+    </g>
+    <g transform="translate(264 286)" filter="url(#shadow)">
+      <rect width="130" height="98" rx="16" fill="#0b3035"/>
+      <circle cx="19" cy="19" r="5" fill="#ff7a3d"/>
+      <text class="mono node-title" x="16" y="51" fill="#f6fffc">DURABLE</text>
+      <text class="mono node-title" x="16" y="68" fill="#f6fffc">STATE</text>
+      <text class="mono node-sub" x="16" y="86" fill="#9cd8d3">SOURCE OF TRUTH</text>
+    </g>
+    <g transform="translate(101 411)" filter="url(#shadow)">
+      <rect width="132" height="87" rx="14" fill="#f8fbf6" stroke="#0b3035" stroke-width="1.5"/>
+      <circle cx="18" cy="18" r="5" fill="#087f8c"/>
+      <text class="mono ink node-title" x="16" y="48">BUILD WORKER</text>
+      <text class="mono muted node-sub" x="16" y="67">BOUNDED RETRIES</text>
+    </g>
+    <g transform="translate(520 280)" filter="url(#shadow)">
+      <rect width="154" height="87" rx="14" fill="#f8fbf6" stroke="#0b3035" stroke-width="1.5"/>
+      <circle cx="18" cy="18" r="5" fill="#f2632f"/>
+      <text class="mono ink node-title" x="16" y="48">LOGS + ARTIFACTS</text>
+      <text class="mono muted node-sub" x="16" y="67">OBSERVABILITY</text>
+    </g>
+
+    <!-- map key -->
+    <g transform="translate(384 436)">
+      <rect width="290" height="62" rx="10" fill="#f8fbf6" stroke="#0b3035" stroke-opacity="0.75"/>
+      <text class="mono ink micro" x="14" y="20">MAP KEY</text>
+      <path d="M14 38H52" stroke="#087f8c" stroke-width="2" marker-end="url(#arrow-teal)"/>
+      <text class="mono muted" x="62" y="42" font-size="9">SYNC</text>
+      <path d="M113 38H151" stroke="#f2632f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow-orange)"/>
+      <text class="mono muted" x="161" y="42" font-size="9">ASYNC</text>
+      <circle cx="232" cy="38" r="5" fill="#f2632f"/>
+      <text class="mono muted" x="244" y="42" font-size="9">HANDOFF</text>
+    </g>
+  </g>
+
+  <!-- footer strip -->
+  <path d="M66 606H1134" stroke="#0b3035" stroke-opacity="0.55"/>
+  <g class="mono micro">
+    <text x="66" y="630" class="muted">13.0827° N / 80.2707° E</text>
+    <text x="481" y="630" class="ink">TYPED AT THE EDGES · DURABLE AT THE CORE</text>
+    <text x="1053" y="630" class="orange">SRM / 2027</text>
+  </g>
+</svg>
