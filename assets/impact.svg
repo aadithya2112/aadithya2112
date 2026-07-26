@@ -1,0 +1,40 @@
+<svg width="1200" height="190" viewBox="0 0 1200 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering impact</title>
+  <desc id="desc">70 plus merged pull requests, four hackathon wins, 40 percent faster authentication, and 99.9 percent uptime.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0B1F33"/>
+      <stop offset="1" stop-color="#07111F"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="1198" height="188" rx="24" fill="url(#panel)" stroke="#173653" stroke-width="2"/>
+  <path d="M32 24H1168" stroke="#16324B" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <path d="M32 166H1168" stroke="#16324B" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <path d="M300 43V147M600 43V147M900 43V147" stroke="#173653"/>
+  <circle cx="300" cy="95" r="3" fill="#22D3EE" filter="url(#glow)"/>
+  <circle cx="600" cy="95" r="3" fill="#F59E0B" filter="url(#glow)"/>
+  <circle cx="900" cy="95" r="3" fill="#22D3EE" filter="url(#glow)"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" text-anchor="middle">
+    <text x="150" y="93" font-size="43" font-weight="700" fill="url(#cyan)">70+</text>
+    <text x="150" y="124" font-size="13" font-weight="600" letter-spacing="2" fill="#A8C5DC">MERGED PRS</text>
+
+    <text x="450" y="93" font-size="43" font-weight="700" fill="#F59E0B">4×</text>
+    <text x="450" y="124" font-size="13" font-weight="600" letter-spacing="2" fill="#A8C5DC">HACKATHON WINNER</text>
+
+    <text x="750" y="93" font-size="43" font-weight="700" fill="url(#cyan)">40%</text>
+    <text x="750" y="124" font-size="13" font-weight="600" letter-spacing="2" fill="#A8C5DC">FASTER AUTH</text>
+
+    <text x="1050" y="93" font-size="43" font-weight="700" fill="#F59E0B">99.9%</text>
+    <text x="1050" y="124" font-size="13" font-weight="600" letter-spacing="2" fill="#A8C5DC">UPTIME</text>
+  </g>
+</svg>
